@@ -7,6 +7,7 @@ This C program is designed to find the shortest path for a robot to clean all di
 - D: Represents a tile with dirt that needs to be cleaned.
 - E: Represents an empty tile the robot can move to.
 - W: Represents a wall tile that blocks movement.
+
 The program uses the Breadth-First Search (BFS) algorithm to systematically explore all possible paths, ensuring that the shortest path to clean all dirt is found. It employs a queue data structure to manage states during the BFS process. Each state includes the current configuration of the world, the sequence of moves taken so far, and the count of moves.
 
 Key features include:
